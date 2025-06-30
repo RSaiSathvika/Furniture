@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Furniture Store - Home</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Inter', sans-serif; /* Using Inter for a modern look */
+            margin: 0;
+            padding: 0;
+            background-color: #F8F5F2; /* Soft, warm off-white background */
+            color: #333333; /* Dark charcoal for primary text */
+            line-height: 1.6;
+        }
+
+        /* Header Styles */
+        header {
+            background-color: #2C3E50; /* Deep charcoal for header */
+            color: #FFFFFF; /* White text for contrast */
+            padding: 1.5rem 0;
+            text-align: center;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15); /* Stronger shadow for depth */
+            border-bottom-left-radius: 15px; /* Rounded corners */
+            border-bottom-right-radius: 15px; /* Rounded corners */
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.8em; /* Larger heading */
+            letter-spacing: 1px;
+        }
+
+        /* Navigation Styles */
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #E0E0E0; /* Lighter grey for navigation background */
+            padding: 0.8rem 0;
+            border-bottom: 1px solid #CCCCCC; /* Subtle border */
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.08); /* Soft shadow */
+        }
+        nav a {
+            text-decoration: none;
+            color: #333333; /* Dark text for navigation links */
+            padding: 0.7rem 1.6rem;
+            margin: 0 0.8rem;
+            border-radius: 8px; /* More rounded corners */
+            transition: background-color 0.3s ease, color 0.3s ease, transform 0.2s ease;
+            font-weight: 600; /* Slightly bolder font */
+            font-size: 1.05em;
+        }
+        nav a:hover {
+            background-color: #B2D8D8; /* A muted, inviting teal on hover */
+            color: #2C3E50; /* Darker text on hover */
+            transform: translateY(-2px); /* Slight lift effect */
+        }
+
+        /* Container Styles */
+        .container {
+            width: 90%; /* Wider container */
+            max-width: 1100px; /* Max width for large screens */
+            margin: 40px auto; /* More vertical margin */
+            padding: 35px; /* More padding */
+            background-color: #FFFFFF; /* White background for content */
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1); /* Deeper shadow */
+            border-radius: 12px; /* More rounded corners */
+            text-align: center; /* Center align text in containers */
+        }
+        .container h2 {
+            color: #4A6572; /* A calming blue-grey for subheadings */
+            font-size: 2.2em;
+            margin-bottom: 25px;
+            border-bottom: 2px solid #B2D8D8; /* Accent border */
+            padding-bottom: 10px;
+            display: inline-block; /* To make border only as wide as text */
+        }
+        .container p {
+            color: #666666; /* Softer grey for paragraph text */
+            font-size: 1.1em;
+            margin-bottom: 20px;
+            max-width: 800px; /* Limit paragraph width for readability */
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        /* CTA Button Styles */
+        .cta-button {
+            display: inline-block;
+            background-color: #4CAF50; /* A friendly green for calls to action */
+            color: #FFFFFF;
+            padding: 12px 25px;
+            text-decoration: none;
+            border-radius: 8px;
+            margin-top: 25px;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+            font-weight: bold;
+            font-size: 1.1em;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .cta-button:hover {
+            background-color: #45A049; /* Darker green on hover */
+            transform: translateY(-3px); /* Stronger lift effect */
+        }
+        .cta-button + .cta-button { /* Spacing for multiple buttons */
+            margin-left: 15px;
+        }
+
+        /* Footer Styles */
+        footer {
+            text-align: center;
+            padding: 30px;
+            margin-top: 50px;
+            background-color: #2C3E50; /* Matches header background */
+            color: #FFFFFF;
+            font-size: 0.95em;
+            border-top-left-radius: 15px; /* Rounded corners */
+            border-top-right-radius: 15px; /* Rounded corners */
+            box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.15);
+        }
+    </style>
+    <!-- Google Fonts - Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Furniture Store!</h1>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="products.html">Products</a>
+        <a href="checkout.html">Checkout</a>
+    </nav>
+
+    <div class="container">
+        <h2>Home Page</h2>
+        <p>Welcome to our online furniture store! We offer a curated selection of stylish and comfortable furniture to elevate your living spaces. Explore our collection and find the perfect pieces for your home.</p>
+        <p>We pride ourselves on quality craftsmanship and customer satisfaction. Start browsing our exquisite range of products today!</p>
+        <a href="products.html" class="cta-button">Browse Products</a>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 My Furniture Store. All rights reserved.</p>
+    </footer>
+</body>
+</html>
